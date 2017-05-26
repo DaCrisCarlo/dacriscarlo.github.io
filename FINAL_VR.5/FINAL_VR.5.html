@@ -19,8 +19,7 @@
 
       function initKeyShotVR() {
         var nameOfDiv = "30 GRADOS";
-document.getElementById("30GRADOS").style.marginTop = "50px";
-        var folderName = "FINAL_VR.5";
+	var folderName = "FINAL_VR.5";
         var viewPortWidth = 1394;
         var viewPortHeight = 903;
         var backgroundColor = "#FFFFFF";
@@ -45,6 +44,7 @@ document.getElementById("30GRADOS").style.marginTop = "50px";
         var uReverse = false;
         var vReverse = false;
         var hotspots = {};
+	document.getElementById("30GRADOS").style.marginTop = "50px";
         
         keyshotVR = new keyshotVR(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots);
       }
